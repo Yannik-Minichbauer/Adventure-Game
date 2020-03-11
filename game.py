@@ -132,6 +132,8 @@ def cast(magic):
         a.say("Which magic you would like to spell?")
     elif magic == "fireball":
         a.say("you cast a flaming Fireball! Woooosh....")
+    else:
+        a.say("you cast {}".format(magic))
 
 
 # ---- new functons for gui ---
